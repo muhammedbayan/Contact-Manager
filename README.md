@@ -30,7 +30,7 @@ Storage: Browser Local Storage
 
 # 📸 Screenshots
 
-![Screenshot](./src/assets/Screenshot.png)
+![Screenshot](./front-end/src/assets/Screenshot.png)
 
 # 💡 Key Learnings
 
