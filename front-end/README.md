@@ -1,16 +1,54 @@
-# React + Vite
+📇 Contact Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Contact Management Web Application built using React.js and Tailwind CSS. This app allows users to efficiently manage their contacts with features like adding, updating, deleting, and searching contacts.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+➕ Add new contacts
+✏️ Update existing contacts
+❌ Delete contacts
+🔍 Search contacts in real-time
+💾 Persistent storage using Local Storage
+🎨 Clean and responsive UI with Tailwind CSS
+⚡ Smooth UI interactions and transitions
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React.js
+Styling: Tailwind CSS
+State Management: React Hooks (useState, useEffect)
+Storage: Browser Local Storage
 
-## Expanding the ESLint configuration
+📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+│
+├── components/
+│   ├── ContactCard.jsx
+│   ├── ContactForm.jsx
+|   ├── ContactList.jsx
+|   ├── ContactView.jsx
+│   ├── SearchBar.jsx
+|   ├── UpdateContact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+📸 Screenshots
+
+(Add screenshots of your app here for better presentation)
+
+💡 Key Learnings
+
+Managing state effectively in React
+Component-based architecture
+Handling forms and controlled inputs
+Implementing search functionality
+Using Local Storage for persistence
+Styling with Tailwind CSS
+
+🙌 Acknowledgements
+
+Inspired by real-world contact management systems
+Built as part of my learning journey in React and frontend development
