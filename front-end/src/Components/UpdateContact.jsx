@@ -63,8 +63,8 @@ export const UpdateContact = ({setUpdateForm , selectedContact ,onUpdate , setSe
                         <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' value={updatedContact.title} name='title'  type="text" placeholder='Title'/>
                     </div>
                 </div> 
-                <button onClick={handleUpdate} className={`text-xl text-white bg-green-600 py-3 px-4 rounded-full m-auto cursor-pointer block mt-7 active:opacity-50 
-                                                            transform transition-all ease-linear duration-300 ${updateForm ? "translate-x-0 " : "md:-translate-x-30 "}`}>Update Contact</button>
+                <button onClick={handleUpdate} className={`text-xl text-white bg-blue-600 py-3 px-8 rounded-full m-auto cursor-pointer block mt-7 active:opacity-50 
+                                                            transform transition-all ease-linear duration-300 ${updateForm ? "translate-x-0 " : "md:-translate-x-30 "}`}>Save</button>
             </div>
           )
     </div>
