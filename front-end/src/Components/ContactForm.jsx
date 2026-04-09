@@ -49,7 +49,7 @@ export const ContactForm = ({setContactFormOpen , setContacts , contactFormOpen}
             < IoIosContact className='text-white text-9xl m-auto'/>
             <div className='flex flex-col gap-3 '>
                 <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='name' value={newContact.name} type="text" placeholder='Name'/>
-                <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='phone' value={newContact.number} type="number" placeholder='Phone'/>
+                <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='phone' value={newContact.phone} type="number" placeholder='Phone'/>
                 <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='email' value={newContact.email} type="email" placeholder='Email'/>
                 <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='company' value={newContact.company} type="text" placeholder='Company or institution'/>
                 <input onChange={handleChange} className='border border-white rounded-xl text-white text-xl px-3 py-2' name='title' value={newContact.title} type="text" placeholder='Title'/>
