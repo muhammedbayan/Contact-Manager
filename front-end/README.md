@@ -27,7 +27,7 @@ Storage: Browser Local Storage
 
 # 📸 Screenshots
 
-(Add screenshots of your app here for better presentation)
+(./src/assets/Screenshot.png)
 
 # 💡 Key Learnings
 
