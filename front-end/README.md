@@ -5,11 +5,17 @@ A modern Contact Management Web Application built using React.js and Tailwind CS
 # 🚀 Features
 
 ➕ Add new contacts
+
 ✏️ Update existing contacts
+
 ❌ Delete contacts
+
 🔍 Search contacts in real-time
+
 💾 Persistent storage using Local Storage
+
 🎨 Clean and responsive UI with Tailwind CSS
+
 ⚡ Smooth UI interactions and transitions
 
 # 🛠️ Tech Stack
